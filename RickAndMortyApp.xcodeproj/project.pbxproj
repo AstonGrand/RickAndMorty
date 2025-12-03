@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		332578A42EDFBD2C00633D6F /* RickMortySwiftApi in Frameworks */ = {isa = PBXBuildFile; productRef = 332578A32EDFBD2C00633D6F /* RickMortySwiftApi */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		332578942EDD303200633D6F /* RickAndMortyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMortyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332578A42EDFBD2C00633D6F /* RickMortySwiftApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = RickAndMortyApp;
 			packageProductDependencies = (
+				332578A32EDFBD2C00633D6F /* RickMortySwiftApi */,
 			);
 			productName = RickAndMortyApp;
 			productReference = 332578942EDD303200633D6F /* RickAndMortyApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 3325788B2EDD303200633D6F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				332578A22EDFBD2C00633D6F /* XCLocalSwiftPackageReference "../../../Downloads/Rick-and-Morty-Swift-API-main" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 332578952EDD303200633D6F /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		332578A22EDFBD2C00633D6F /* XCLocalSwiftPackageReference "../../../Downloads/Rick-and-Morty-Swift-API-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/Rick-and-Morty-Swift-API-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		332578A32EDFBD2C00633D6F /* RickMortySwiftApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RickMortySwiftApi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3325788C2EDD303200633D6F /* Project object */;
 }
