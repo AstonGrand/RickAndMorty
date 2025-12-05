@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		332578A42EDFBD2C00633D6F /* RickMortySwiftApi in Frameworks */ = {isa = PBXBuildFile; productRef = 332578A32EDFBD2C00633D6F /* RickMortySwiftApi */; };
+		332578A72EE25DCD00633D6F /* RickMortySwiftApi in Frameworks */ = {isa = PBXBuildFile; productRef = 332578A62EE25DCD00633D6F /* RickMortySwiftApi */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332578A72EE25DCD00633D6F /* RickMortySwiftApi in Frameworks */,
 				332578A42EDFBD2C00633D6F /* RickMortySwiftApi in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = RickAndMortyApp;
 			packageProductDependencies = (
 				332578A32EDFBD2C00633D6F /* RickMortySwiftApi */,
+				332578A62EE25DCD00633D6F /* RickMortySwiftApi */,
 			);
 			productName = RickAndMortyApp;
 			productReference = 332578942EDD303200633D6F /* RickAndMortyApp.app */;
@@ -101,7 +104,7 @@
 			mainGroup = 3325788B2EDD303200633D6F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				332578A22EDFBD2C00633D6F /* XCLocalSwiftPackageReference "../../../Downloads/Rick-and-Morty-Swift-API-main" */,
+				332578A52EE25DCD00633D6F /* XCLocalSwiftPackageReference "../Rick-and-Morty-Swift-API-main" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 332578952EDD303200633D6F /* Products */;
@@ -343,14 +346,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		332578A22EDFBD2C00633D6F /* XCLocalSwiftPackageReference "../../../Downloads/Rick-and-Morty-Swift-API-main" */ = {
+		332578A52EE25DCD00633D6F /* XCLocalSwiftPackageReference "../Rick-and-Morty-Swift-API-main" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../../Downloads/Rick-and-Morty-Swift-API-main";
+			relativePath = "../Rick-and-Morty-Swift-API-main";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		332578A32EDFBD2C00633D6F /* RickMortySwiftApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RickMortySwiftApi;
+		};
+		332578A62EE25DCD00633D6F /* RickMortySwiftApi */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RickMortySwiftApi;
 		};
