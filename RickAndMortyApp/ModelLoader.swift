@@ -85,10 +85,15 @@ final class ModelLoader: ObservableObject {
         do {
             let rmClient = RMClient()
             let rmEpisode = RMEpisode(client: rmClient)
+            
             let ids = episodesLinks.compactMap { string in
                 Int(string.split(separator: "/").last ?? "")
             }
-            episodesInCharacter = try await rmEpisode.getEpisodesByIDs(ids: ids)
+            if ids.count == 1 {
+                episodesInCharacter = [try await rmEpisode.getEpisodeByID(id: ids[0])]
+            } else {
+                episodesInCharacter = try await rmEpisode.getEpisodesByIDs(ids: ids)
+            }
         } catch {
             errorMessage = NetworkError.decodingFailed(error).localizedDescription
         }
