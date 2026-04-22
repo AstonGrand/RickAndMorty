@@ -70,7 +70,6 @@ struct MainView: View  {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.green)
         Spacer()
     }
 }
