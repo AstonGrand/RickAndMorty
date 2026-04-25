@@ -18,10 +18,10 @@ The app consists of some screens/features, designed to provide a seamless user e
    **feature**: Provides in-depth information about a selected character, including their picture and status (alive, dead, etc).
    
 ### 5. Random character detail view
-    **feature**:The title screen features a button that displays a detail screen for a random character.
+   **feature**:The title screen features a button that displays a detail screen for a random character.
 
 ### 6. Random episode detail view
-	**feature**:The title screen features a button that displays a detail screen for a random episode.
+   **feature**: The title screen features a button that displays a detail screen for a random episode.
 
 
 ### Architecture & Design Patterns
