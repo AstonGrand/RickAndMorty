@@ -8,7 +8,6 @@ struct MainView: View  {
     
     var body: some View {
         NavigationStack(path: $path) {
-            //+
             ZStack(alignment: .bottom) {
                 TabView(selection: $selectedTab) {
                     VStack (alignment: .center) {
